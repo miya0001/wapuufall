@@ -18,8 +18,6 @@ Text Domain: wapuufall
 function wapuufall_script_css_add(){
   wp_enqueue_script('snowfall-jquery',plugins_url('/js/snowfall.jquery.js',__FILE__),array('jquery'));
   wp_enqueue_script('wapuufall-jquery',plugins_url('/js/wapuufall.js',__FILE__),array('snowfall-jquery'));
-  
   wp_localize_script('wapuufall-jquery','wapuufall_plugin_url',plugins_url('',__FILE__));
-  
 }
 add_action('wp_enqueue_scripts','wapuufall_script_css_add');
