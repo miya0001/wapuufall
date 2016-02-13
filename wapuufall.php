@@ -6,8 +6,8 @@ Description: A lot of Wapuu Fall
 Version:     1.0
 Author:      Yoshinori Kobayashi
 Author URI:  http://ticklecode.com/
-License:     GPL2
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+License:     GPL3+
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Domain Path: /languages
 Text Domain: wapuufall
 */

@@ -4,8 +4,8 @@ Tags: wapuu,joke,decoration
 Requires at least: 1.0.0
 Tested up to: 4.3
 Stable tag: 4.4
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License:     GPL3+
+License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Character of wapuu will come falling as snow on the screeen.
 
