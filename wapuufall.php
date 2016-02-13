@@ -12,20 +12,6 @@ Domain Path: /languages
 Text Domain: wapuufall
 */
 
-function wapuufall_install() {
-  // Clear the permalinks after the post type has been registered
-  flush_rewrite_rules();
-}
-register_activation_hook(__FILE__,'wapuufall_install');
-
-function wapuufall_deactivation() {
-  // Our post type will be automatically removed, so no need to unregister it
-  
-  // Clear the permalinks to remove our post type's rules
-  flush_rewrite_rules();
-}
-register_deactivation_hook(__FILE__,'wapuufall_deactivation');
-
 /**
 * Enqueu script and css
 */
