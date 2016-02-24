@@ -1,6 +1,6 @@
 === Plugin Name ===
-Contributors: yoshiii
-Tags: wapuu,joke,decoration
+Contributors: yoshiii,Toro_Unit,mayukojpn
+Tags: wapuu,joke,decoration,fall,Events
 Requires at least: 1.0.0
 Tested up to: 4.3
 Stable tag: 4.4
