@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: yoshiii,Toro_Unit,mayukojpn
+Contributors: yoshiii,Toro_Unit,mayukojpn,extendwings
 Tags: wapuu,joke,decoration,fall,Events
 Requires at least: 1.0.0
 Tested up to: 4.3
