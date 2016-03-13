@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tests for Wapuufall</title>
+  <style>
+    html, body
+    {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script type="text/javascript">
+    var wapuufall_plugin_url = "..";
+  </script>
+  <script   src="https://code.jquery.com/jquery-2.2.1.min.js"   integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="   crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../js/snowfall.jquery.js"></script>
+  <script type="text/javascript" src="../js/wapuufall.js"></script>
+  <script type='text/javascript' src='http://code.jquery.com/qunit/qunit-1.12.0.js'></script>
+  <script type="text/javascript">
+    var wapuufall_plugin_url = "..";
+    test( 'Wapuu should be many!', function() {
+        ok( 0 < jQuery( '.snowfall-flakes' ).length, 'Can\'t find Wapuus' );
+    } );
+  </script>
+</body>
+</html>
